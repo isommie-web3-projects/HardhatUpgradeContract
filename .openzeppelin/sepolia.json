@@ -71,6 +71,51 @@
           ]
         }
       }
+    },
+    "e9dac59714b3f9cc0937d4169eaac61c70b920716ec730e6f4612ee7b4556ef8": {
+      "address": "0xb1A80D641D62F9da75A3473ce80959700b91Ab77",
+      "txHash": "0x22b4b158445cf2b4651c45135f53a46f958ef84dae9a9ff2d10230f506ad5c89",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "label": "val",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "CalculatorV2",
+            "src": "contracts\\CalculatorV2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73"
+            }
+          ]
+        }
+      }
     }
   }
 }
